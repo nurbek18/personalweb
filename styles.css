@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo-container {
+  text-align: left;
+  flex-grow: 1; 
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+
+.nav-links {
+  list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* 设置链接之间的间距 */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* 将文本水平居中 */
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+header {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+/* About Me Section */
+#about {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Skills Section */
+#skills {
+  padding: 50px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Projects Section */
+#projects {
+  padding: 50px;
+  text-align: center;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project a {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px;
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-form label {
+  margin-bottom: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
