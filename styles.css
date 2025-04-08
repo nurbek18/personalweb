@@ -1,0 +1,279 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo-container {
+  text-align: left;
+  flex-grow: 1; 
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+
+.nav-links {
+  list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* 设置链接之间的间距 */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* 将文本水平居中 */
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+header {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+/* About Me Section */
+#about {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Skills Section */
+#skills {
+  padding: 50px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Projects Section */
+#projects {
+  padding: 50px;
+  text-align: center;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project a {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px;
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-form label {
+  margin-bottom: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+/* Certificates Section */
+#certificates {
+  padding: 50px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+#certificates h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.certificate-slider {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 20px; /* 证书项之间的间隔 */
+}
+
+.certificate-item {
+  text-align: center;
+  flex: 0 0 auto;
+  width: 250px; /* 每个证书项的固定宽度，可根据需要调整 */
+}
+
+.certificate-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.certificate-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.certificate-item img:hover {
+  transform: scale(1.05);
+}
+
+.certificate-link {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+
+
+
+/* Slider 控制按钮样式 */
+.slider-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 15px;
+  border-radius: 50%;  /* 圆形按钮 */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 20px;  /* 增大按钮的字体 */
+}
+
+.slider-control.left {
+  left: 0px;  /* 左侧按钮稍微靠近一点 */
+}
+
+.slider-control.right {
+  right: 0px;  /* 右侧按钮稍微靠近一点 */
+}
+
+/* 按钮悬停效果 */
+.slider-control:hover {
+  background-color: rgba(0, 0, 0, 0.9);  /* 鼠标悬停时按钮变暗 */
+  transform: scale(1.2);  /* 增大按钮的尺寸 */
+}
+
+
+
+
+
+
+/* 信息卡片样式 */
+.info-card {
+  position: fixed;
+  top: 5%;
+  left: -400px; /* 初始位置在左边隐藏 */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: rgba(17, 17, 17, 0.8);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  width: 320px;
+  font-size: 0.875rem;
+  z-index: 10;
+  transition: left 0.3s ease-in-out; /* 使用 left 动画 */
+}
+.info-card a {
+  color: rgb(17, 158, 239);
+  text-decoration: underline;  /* 保持下划线 */
+
+}
+
+.info-card a:hover {
+  color: #3b82f6;  /* 蓝色悬停效果 */
+}
+
+/* 展开卡片时的位置 */
+.info-card.open {
+  left: 0; /* 展开时，卡片移到屏幕内 */
+}
+
+/* 按钮样式 */
+.toggle-btn {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #f5f5f5;
+  color: rgb(10, 0, 0);
+  padding: 7px 12px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 20;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #555;
+}
+
+

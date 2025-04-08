@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img class="logo" src="https://avatars.githubusercontent.com/u/87654975?v=4" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+<!-- 信息卡片按钮 -->
+<button id="toggle-btn" class="toggle-btn">click me 👤info</button>
+
+<!-- 左上角信息卡片 -->
+<div id="info-card" class="info-card">
+  <!-- 卡片内容 -->
+  <div>
+    <h2 class="text-2xl font-bold tracking-wide">Nurbek Dohdyrbek</h2>
+    <p class="text-gray-400">BSc in Data Science @ IITU</p>
+  </div>
+  
+  <div>
+    <p><span class="font-semibold">👤 Age:</span> 22</p>
+    <p><span class="font-semibold">🎓 Education:</span> Data Science</p>
+    <p><span class="font-semibold">🌐 Languages:</span> Chinese, English, Russian, Kazakh</p>
+  </div>
+  
+  <div>
+    <p><span class="font-semibold">💻 GitHub:</span> 
+      <a href="https://github.com/nurbek18" class="underline">nurbek18</a>
+    </p>    
+  </div>
+  
+
+  <div>
+    <p><span class="font-semibold">❤️ Interests:</span></p>
+    <ul class="list-disc list-inside text-gray-300 space-y-0.5">
+      <li>Artificial Intelligence</li>
+      <li>Data Science</li>
+      <li>Web Development</li>
+      <li>Gaming & Travel</li>
+      <li>Enjoying Nature</li>
+    </ul>
+  </div>
+
+  <!-- 新增：联系方式 -->
+  <div>
+    <p><span class="font-semibold">📞 Phone:</span> <a href="tel:+1234567890" class="text-white hover:text-blue-400">+1 (234) 567-890</a></p>
+    <p><span class="font-semibold">📱 Telegram:</span> <a href="https://t.me/yourusername" class="text-white hover:text-blue-400">yourusername</a></p>
+    <p><span class="font-semibold">💬 WhatsApp:</span> <a href="https://wa.me/1234567890" class="text-white hover:text-blue-400">+1 (234) 567-890</a></p>
+    <p><span class="font-semibold">📸 Instagram:</span> <a href="https://instagram.com/yourusername" class="text-white hover:text-blue-400">@yourusername</a></p>
+  </div>
+</div>
+
+
+
+
+
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>A showcase of my skills, projects, certificates ,achievements and so on</p>
+    </header>
+
+
+
+    <section id="certificates">
+        <h2>Course Certificates</h2>
+        <div class="certificate-slider">
+          <div class="slider-track">
+            <!-- Certificate 1 -->
+            <div class="certificate-item">
+              <p class="certificate-description">Introduction to Java</p>
+              <a href="https://github.com/nurbek18/your-repo/cert1.pdf" target="_blank">
+                <img src="images/cert1.png" alt="Certificate 1">
+              </a>
+              <p class="certificate-link">
+                <a href="https://www.coursera.org/account/accomplishments/verify/QC8D5T9QE29A" target="_blank">View source place</a>
+              </p>
+            </div>
+            <!-- Certificate 2 -->
+            <div class="certificate-item">
+              <p class="certificate-description">Introduction to Object-Oriented Programming withJava</p>
+              <a href="https://github.com/nurbek18/your-repo/cert2.pdf" target="_blank">
+                <img src="images/cert2.png" alt="Certificate 2">
+              </a>
+              <p class="certificate-link">
+                <a href="https://www.coursera.org/account/accomplishments/verify/JYRR7Q6TB5M3" target="_blank">View source place</a>
+              </p>
+            </div>
+            <!-- Certificate 3 -->
+            <div class="certificate-item">
+              <p class="certificate-description">Java Class Library</p>
+              <a href="https://github.com/nurbek18/your-repo/cert3.pdf" target="_blank">
+                <img src="images/cert3.png" alt="Certificate 3">
+              </a>
+              <p class="certificate-link">
+                <a href="https://www.coursera.org/account/accomplishments/verify/AU8ZABLZES9Z" target="_blank">View source place</a>
+              </p>
+            </div>
+            <!-- 继续添加更多证书项 --><div class="certificate-item">
+              <p class="certificate-description">Object-Oriented Hierarchies in Java</p>
+              <a href="https://github.com/nurbek18/your-repo/cert4.pdf" target="_blank">
+                <img src="images/cert4.png" alt="Certificate 4">
+              </a>
+              <p class="certificate-link">
+                <a href="https://www.coursera.org/account/accomplishments/verify/YGWXSW2UXCFU" target="_blank">View source place</a>
+              </p>
+            </div>
+            <div class="certificate-item">
+                <p class="certificate-description">Calculus for Machine Learning and Data Science</p>
+                <a href="https://github.com/nurbek18/your-repo/cert5.pdf" target="_blank">
+                  <img src="images/cert5.png" alt="Certificate 5">
+                </a>
+                <p class="certificate-link">
+                  <a href="https://www.coursera.org/account/accomplishments/verify/ZEH6JWWEQLBH" target="_blank">View source place</a>
+                </p>
+              </div>
+              <div class="certificate-item">
+                <p class="certificate-description">What is Data Science?</p>
+                <a href="https://github.com/nurbek18/your-repo/cert6.pdf" target="_blank">
+                  <img src="images/cert6.png" alt="Certificate 6">
+                </a>
+                <p class="certificate-link">
+                  <a href="https://www.coursera.org/account/accomplishments/verify/7CM5EJXQASNJ" target="_blank">View source place</a>
+                </p>
+              </div>
+              <div class="certificate-item">
+                <p class="certificate-description">Linear Algebra for Machine Learning and DataScience</p>
+                <a href="https://github.com/nurbek18/your-repo/cert7.pdf" target="_blank">
+                  <img src="images/cert7.png" alt="Certificate 7">
+                </a>
+                <p class="certificate-link">
+                  <a href="https://coursera.org/verify/AJ0CU9JXQZLF" target="_blank">View source place</a>
+                </p>
+              </div>
+              <div class="certificate-item">
+                <p class="certificate-description">Probability & Statistics for Machine Learning &Data Science</p>
+                <a href="https://github.com/nurbek18/your-repo/cert8.pdf" target="_blank">
+                  <img src="images/cert8.png" alt="Certificate 8">
+                </a>
+                <p class="certificate-link">
+                  <a href="https://coursera.org/verify/RGQER9E9NRS6" target="_blank">View source place</a>
+                </p>
+              </div>
+              <div class="certificate-item">
+                <p class="certificate-description">Accelerating Data Engineering Pipelines</p>
+                <a href="https://github.com/nurbek18/your-repo/cert9.pdf" target="_blank">
+                  <img src="images/cert9.png" alt="Certificate 9">
+                </a>
+                <p class="certificate-link">
+                  <a href="https://learn.nvidia.com/certificates?id=hZBpzWFFRp-8j6AZANb2ug1/2" target="_blank">View source place</a>
+                </p>
+              </div>
+              <div class="certificate-item">
+                <p class="certificate-description">Introduction to Statistics & Data Analysis in PublicHealth</p>
+                <a href="https://github.com/nurbek18/your-repo/cert10.pdf" target="_blank">
+                  <img src="images/cert10.png" alt="Certificate 10">
+                </a>
+                <p class="certificate-link">
+                  <a href="https://www.coursera.org/account/accomplishments/verify/KVHWZBUQ6DU7" target="_blank">View source place</a>
+                </p>
+              </div>
+              <div class="certificate-item">
+                <p class="certificate-description">Introduction to Statistics</p>
+                <a href="https://github.com/nurbek18/your-repo/cert11.pdf" target="_blank">
+                  <img src="images/cert11.png" alt="Certificate 11">
+                </a>
+                <p class="certificate-link">
+                  <a href="https://www.coursera.org/account/accomplishments/verify/5RHC3HGJ8W8J" target="_blank">View source place</a>
+                </p>
+              </div>
+              <div class="certificate-item">
+                <p class="certificate-description">Statistics for Data Science with Python</p>
+                <a href="https://github.com/nurbek18/your-repo/cert12.pdf" target="_blank">
+                  <img src="images/cert12.png" alt="Certificate 12">
+                </a>
+                <p class="certificate-link">
+                  <a href="https://www.coursera.org/account/accomplishments/verify/38VA6E6ZFSSQ" target="_blank">View source place</a>
+                </p>
+              </div>
+          </div>
+          <!-- 左右控制按钮 -->
+          <button class="slider-control left">&#10094;</button>
+          <button class="slider-control right">&#10095;</button>
+        </div>
+      </section>
+      
+    <section id="about">
+        <h2>About Me</h2>
+        
+        <div class="about-content" style="text-align: center; font-family: Arial, sans-serif; padding: 20px; background-color: #f2f2f2;">
+          <p style="font-size: 16px; color: #333; line-height: 1.5em;">
+              Chris (Nurbek) – I am a data scientist specializing in data mining, machine learning, and data visualization. I have experience in using Python to analyze large datasets and build predictive models. I excel at turning complex data into clear insights to drive business decisions.
+          </p>
+          
+          <p style="font-size: 16px; color: #333; line-height: 1.5em;">
+              A collaborative team player with strong problem-solving skills, I work efficiently under pressure while maintaining high-quality results.
+          </p>
+      </div>
+      
+        
+            
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>ML</li>
+            <li>DL</li>
+            <li>Data Science</li>
+            <li>flask</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+          <h2>The Projects</h2>
+          <div class="project">
+              <p>1:This project (BirdFlyGame)is a simple Java application that simulates a bird flying in the air. </p>
+              <p>2:This project (SnakeGame) is JavaFX snake game allows players to control a snake to eat food and grow.</p>
+              <p>
+    3:A full-stack web application designed to support and manage driver services across Kazakhstan. Built with React.js, Node.js, and MongoDB, the platform allows users to find drivers based on filters (e.g., region, experience, car type), and includes an admin panel for data management. This project is deployed and live on Render — check it out here: 
+    <a href="https://drivesafenow.onrender.com" target="_blank">drivesafenow.onrender.com</a>.
+              </p>
+              </p>The following are their GitHub repository links:</p>
+              <a href="https://github.com/nurbek18/new_driver_help.git">new_dirver_help.github</a>
+              <a href="https://github.com/nurbek18/SnakeGame-_n-.git">SnakeGame.github</a>
+              <a href="https://github.com/nurbek18/bird-fly.git">BirdFlyGame.github</a>
+          </div>
+      </section>
+  
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <h5>(  I will receive the message and reply  )</h5>
+        <form id="contact-form" action="https://formspree.io/f/mqkrnjea" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nurbek</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
