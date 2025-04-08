@@ -219,7 +219,7 @@ footer {
 
 
 
-/* 信息卡片样式 */
+/* 信息卡片样式 *需要注意以下/
 .info-card {
   position: fixed;
   top: 2%;
