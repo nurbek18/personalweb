@@ -18,13 +18,25 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 
 ## Screenshots
 
-Here are some sample screenshots of the personal website design:
+Here are some real screenshots of the website:
 
 ### Homepage
 
-![Homepage](https://chat.openai.com/c/file/0000000000f8622fa2c20aa4c2b9f01f)
+![Homepage](./screenshots/homepage.png)
 
-> **Note:** You can replace these placeholder images with actual screenshots of your own site by placing them in a `/screenshots` folder.
+### About Section
+
+![About](./screenshots/about.png)
+
+### Skills Section
+
+![Skills](./screenshots/skills.png)
+
+### Projects Section
+
+![Projects](./screenshots/projects.png)
+
+> These images are located in the `/screenshots` folder of this repository.
 
 ## How to Use (Local Setup)
 
