@@ -21,20 +21,16 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 Here are some real screenshots of the website:
 
 ### Homepage
-
-![Homepage](Screenshot_20250409_080509.jpg)
+<img src="Screenshot_20250409_080509.jpg" alt="Homepage" width="400"/>
 
 ### About Section
-
-![About](Screenshot_20250409_080514.jpg)
+<img src="Screenshot_20250409_080514.jpg" alt="About" width="400"/>
 
 ### Skills Section
-
-![Skills](Screenshot_20250409_080521.jpg)
+<img src="Screenshot_20250409_080521.jpg" alt="Skills" width="400"/>
 
 ### Projects Section
-
-![Projects](Screenshot_20250409_080526.jpg)
+<img src="Screenshot_20250409_080526.jpg" alt="Projects" width="400"/>
 
 > These images are located in the this repository.
 
