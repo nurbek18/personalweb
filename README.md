@@ -22,19 +22,19 @@ Here are some real screenshots of the website:
 
 ### Homepage
 
-![Homepage](./screenshots/homepage.png)
+![Homepage](homepage.png)
 
 ### About Section
 
-![About](./screenshots/about.png)
+![About](about.png)
 
 ### Skills Section
 
-![Skills](./screenshots/skills.png)
+![Skills](skills.png)
 
 ### Projects Section
 
-![Projects](./screenshots/projects.png)
+![Projects](projects.png)
 
 > These images are located in the `/screenshots` folder of this repository.
 
