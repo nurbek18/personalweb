@@ -22,21 +22,21 @@ Here are some real screenshots of the website:
 
 ### Homepage
 
-![Homepage](homepage.png)
+![Homepage](Screenshot_20250409_080509.jpg)
 
 ### About Section
 
-![About](about.png)
+![About](Screenshot_20250409_080514.jpg)
 
 ### Skills Section
 
-![Skills](skills.png)
+![Skills](Screenshot_20250409_080521.jpg)
 
 ### Projects Section
 
-![Projects](projects.png)
+![Projects](Screenshot_20250409_080526.jpg)
 
-> These images are located in the `/screenshots` folder of this repository.
+> These images are located in the this repository.
 
 ## How to Use (Local Setup)
 
